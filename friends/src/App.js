@@ -1,6 +1,14 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import PrivateRoute from "./components/PrivateRoute"
+import Login from "./components/Login";
+import Friends from "./components/Friends";
+import FriendsAdd from "./components/FriendsAdd";
+import FriendsDelete from "./components/FriendsDelete";
+import FriendsEdit from "./components/FriendsEdit";
+
+
 
 
 function App() {
